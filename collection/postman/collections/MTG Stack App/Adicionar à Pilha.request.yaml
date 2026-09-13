@@ -1,0 +1,16 @@
+$kind: http-request
+url: http://localhost:3000/game/game001/stack/add
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "cardName": "Counterspell",
+      "controllerId": "Jan",
+      "type": "SPELL",
+      "targets": ["Kodama's Reach"]
+    }
+settings: {}
+order: 3000

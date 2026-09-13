@@ -1,0 +1,16 @@
+$kind: http-request
+url: http://localhost:3000/usuarios
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"nome\":\"Felipe Caldeira\",\r
+
+    \    \"email\":\"felipe.xitus1@hotmail.com\",\r
+
+    \    \"senha\":\"hilfar39F!\"\r
+
+    }"
+settings: {}
+order: 1000

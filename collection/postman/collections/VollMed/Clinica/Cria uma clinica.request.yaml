@@ -1,0 +1,26 @@
+$kind: http-request
+url: localhost:3000/clinica
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+        "planoDeSaudeAceitos":[1,2,3,4],
+    	"email":"clinica@gmail.com",
+    	"nome":"Clinica de Todos",
+    	"senha":"4321",
+        "endereco": {
+            "cep": 76541321,
+            "rua": "Rua 45",
+            "numero": 2,
+            "complemento": "casa",
+    			"estado":"Amapá"
+        }
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 3000

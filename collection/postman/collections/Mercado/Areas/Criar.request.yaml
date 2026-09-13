@@ -1,0 +1,12 @@
+$kind: http-request
+url: http://localhost:3000/areas
+method: POST
+headers:
+  Authorization: ""
+body:
+  type: json
+  content: "{\r\n    \"nome\":\"Estoquista\"\r\n}"
+auth:
+  type: noauth
+settings: {}
+order: 1000

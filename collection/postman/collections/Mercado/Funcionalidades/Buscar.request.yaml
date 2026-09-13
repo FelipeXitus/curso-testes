@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:3000/funcionalidades
+method: GET
+headers:
+  Authorization: ""
+auth:
+  type: noauth
+settings: {}
+order: 2000

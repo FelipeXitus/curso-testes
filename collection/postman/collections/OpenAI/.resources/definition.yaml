@@ -1,0 +1,7 @@
+$kind: collection
+description: ""
+variables:
+  - key: openai_api_key_2_082v
+    secret: true
+  - key: bearer_token_0b4w
+    secret: true

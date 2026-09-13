@@ -1,0 +1,5 @@
+$kind: http-request
+url: "{{baseURL}}/livros/6978f98be86dc6dae2eb1ee3"
+method: DELETE
+settings: {}
+order: 4000

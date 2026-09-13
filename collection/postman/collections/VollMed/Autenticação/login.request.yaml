@@ -1,0 +1,19 @@
+$kind: http-request
+url: localhost:3000/auth/login
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+    	"email": "emerson@email.com",
+    	"senha": "Senh@forte123"
+    }
+auth:
+  type: bearer
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 1000

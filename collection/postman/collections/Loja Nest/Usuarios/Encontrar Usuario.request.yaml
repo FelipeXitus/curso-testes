@@ -1,0 +1,5 @@
+$kind: http-request
+url: http://localhost:3000/usuarios/92e8c9a3-d905-4afd-8e19-d7e3e0f1ec5c
+method: GET
+settings: {}
+order: 5000

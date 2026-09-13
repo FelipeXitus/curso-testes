@@ -1,0 +1,22 @@
+$kind: http-request
+url: http://localhost:3000/abrigos/2
+method: PATCH
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+        "logradouro": "Estrada Municipal Borba Gato",
+        "numero": 56,
+        "cidade": "Itapecirica da Serra",
+        "estado": "São Paulo",
+        "cep": "06850-001"
+    }
+auth:
+  type: noauth
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 4000

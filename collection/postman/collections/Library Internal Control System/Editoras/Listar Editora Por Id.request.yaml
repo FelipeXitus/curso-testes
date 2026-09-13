@@ -1,0 +1,5 @@
+$kind: http-request
+url: "{{baseURL}}/editoras/6978ed9b51b2b54ea291d0b8"
+method: GET
+settings: {}
+order: 2000

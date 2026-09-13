@@ -1,0 +1,12 @@
+$kind: http-request
+description: "Generated from cURL: curl -X POST http://localhost:3001/upload/prepared-video.mp4 \\\r
+
+  \  --data-binary \"C:\\Users\\User\\Desktop\\Cortes\\Final\\Curto_Modelo de El Salvador\\Curto_Modelo de El Salvador.mp4\""
+url: http://localhost:3001/upload/novo-video.mp4
+method: POST
+body:
+  type: file
+  content:
+    src: /C:/Users/User/Desktop/Cortes/Final/Curto_Modelo de El Salvador/Curto_Modelo de El Salvador.mp4
+settings: {}
+order: 3000

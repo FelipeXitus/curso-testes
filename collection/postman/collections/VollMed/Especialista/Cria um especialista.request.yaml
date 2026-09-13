@@ -1,0 +1,32 @@
+$kind: http-request
+url: localhost:3000/especialista
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+        "nome": "mateus",
+        "crm": 5455576,
+        "imagem": "gfht.jpg",
+        "especialidade": "cardiologia",
+         "possuiPlanoSaude": true,
+    	"senha":"12345",
+        "planosSaude": [1,2,0],
+        "estaAtivo":true,
+        "email": "ar.naldo@gmail.com",
+        "telefone": "40028922",
+        "endereco": {
+            "cep": 76541321,
+            "rua": "Rua 9",
+            "estado":"São Paulo",
+            "numero": 65,
+            "complemento": "casa"
+        }
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 3000

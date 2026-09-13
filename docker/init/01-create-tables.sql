@@ -35,7 +35,7 @@ CREATE TYPE tipo_pagamento AS ENUM ('CARTAO_CREDITO', 'CARTAO_DEBITO', 'PIX', 'B
 CREATE TABLE IF NOT EXISTS vendas (
     id SERIAL PRIMARY KEY,
     livro_id INTEGER NOT NULL,
-    valor INTEGER NOT NULL,
+    valor NUMERIC(10,2) NOT NULL,
     tipo_pagamento tipo_pagamento NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,

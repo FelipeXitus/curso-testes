@@ -1,0 +1,31 @@
+$kind: http-request
+url: localhost:3000/clinica/:id
+method: PUT
+headers:
+  Content-Type: application/json
+pathVariables:
+  id: ""
+body:
+  type: json
+  content: "{\r
+
+    \    \"planoDeSaudeAceitos\":[1,2],\r
+
+    \    \"endereco\": {\r
+
+    \        \"cep\": 12314567,\r
+
+    \        \"rua\": \"Rua 10\",\r
+
+    \        \"numero\": 1,\r
+
+    \        \"complemento\": \"casa\"\r
+
+    \    }\r
+
+    }"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 4000

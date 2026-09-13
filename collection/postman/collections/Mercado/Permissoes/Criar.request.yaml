@@ -1,0 +1,20 @@
+$kind: http-request
+url: http://localhost:3000/permissoes
+method: POST
+headers:
+  Authorization: ""
+body:
+  type: json
+  content: "{\r
+
+    \    \"idUsuario\": \"f0acf60d-5373-4c07-9c2c-d2aac167cee2\",\r
+
+    \    \"idRegra\": \"ff3cdd2c-597f-427f-9131-365e62c55132\",\r
+
+    \    \"idArea\": \"847c77a7-8892-470a-815f-3d476754522a\"\r
+
+    }"
+auth:
+  type: noauth
+settings: {}
+order: 1000

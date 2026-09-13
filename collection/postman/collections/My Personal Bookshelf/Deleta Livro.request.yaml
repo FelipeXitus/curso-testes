@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{baseURL}}/livros/12"
+method: DELETE
+queryParams:
+  - key: id
+    value: ""
+    disabled: true
+settings: {}
+order: 5000

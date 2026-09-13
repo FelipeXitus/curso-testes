@@ -1,0 +1,12 @@
+$kind: http-request
+url: "{{baseURL}}/livros/favoritos"
+method: GET
+body:
+  type: text
+  content: "{\r
+
+    \  \"titulo\": \"O Senhor dos Anéis: A Sociedade do Anel\"\r
+
+    }"
+settings: {}
+order: 8000

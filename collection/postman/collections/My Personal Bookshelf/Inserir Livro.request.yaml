@@ -1,0 +1,20 @@
+$kind: http-request
+url: "{{baseURL}}/livros"
+method: POST
+queryParams:
+  - key: ""
+    value: ""
+    disabled: true
+body:
+  type: json
+  content: "{\r
+
+    \    \"titulo\":\"Contos Inacabados\",\r
+
+    \    \"autor\":\"J.R.R. Tolkien\",\r
+
+    \    \"src\":\"./assets/contos_inacabados.png\"\r
+
+    }\r\n"
+settings: {}
+order: 2000

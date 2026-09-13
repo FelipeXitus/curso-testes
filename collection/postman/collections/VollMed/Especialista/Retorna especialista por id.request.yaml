@@ -1,0 +1,22 @@
+$kind: http-request
+url: localhost:3000/especialista/:id
+method: GET
+headers:
+  "": 3bcfb167-b096-4052-b657-378ffcaa4676
+queryParams:
+  - key: ""
+    value: ""
+    disabled: true
+pathVariables:
+  id: ""
+body:
+  type: urlencoded
+  content:
+    - key: id
+      value: 3bcfb167-b096-4052-b657-378ffcaa4676
+      disabled: true
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 2000

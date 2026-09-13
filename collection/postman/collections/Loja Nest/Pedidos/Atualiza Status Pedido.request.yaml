@@ -1,0 +1,12 @@
+$kind: http-request
+url: http://localhost:3000/pedido/7849477a-ceda-433e-a51f-a91fe7bfe0b4
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"status\":\"processado\"\r
+
+    }"
+settings: {}
+order: 3000

@@ -41,7 +41,7 @@ erDiagram
 
     VENDAS {
       int id PK
-      int valor
+      numeric valor
       enum tipo_pagamento
       datetime created_at
       datetime updated_at

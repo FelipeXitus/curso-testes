@@ -1,0 +1,5 @@
+$kind: http-request
+url: http://localhost:3000/produtos/cbb88f57-6f04-4959-9732-2f303b055d9a
+method: DELETE
+settings: {}
+order: 4000

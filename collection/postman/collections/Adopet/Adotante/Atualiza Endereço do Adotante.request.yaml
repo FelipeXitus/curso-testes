@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:3000/adotantes/5
+method: PATCH
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+        "logradouro":"Rua Werner Goldberg",
+        "numero":77,
+    	"cidade":"Barueri",
+     	"estado":"São Paulo",
+        "cep":"06414-025",
+        "complemento":"Rouxinol 251"
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 3000

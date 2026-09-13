@@ -1,0 +1,14 @@
+$kind: http-request
+url: http://localhost:3000/api/enrollments
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "studentId": 1,
+      "courseId": 1
+    }
+settings: {}
+order: 2000

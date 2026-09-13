@@ -1,0 +1,10 @@
+$kind: http-request
+url: localhost:3000/auth/logout
+method: POST
+headers:
+  token: "{{supabase_service_role_api_key_0xkd}}"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 2000

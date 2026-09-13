@@ -1,0 +1,8 @@
+$kind: http-request
+url: localhost:3000/paciente/5afe2a3b-54f1-4fee-82fc-fd89368d9224/
+method: GET
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 5000

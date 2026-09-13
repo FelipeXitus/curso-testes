@@ -1,0 +1,5 @@
+$kind: http-request
+url: http://localhost:3000/api/students/2
+method: DELETE
+settings: {}
+order: 5000

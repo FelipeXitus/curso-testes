@@ -1,0 +1,60 @@
+$kind: http-request
+url: http://localhost:3000/produtos
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"nome\": \"Figura de ação Marvel Homem de Ferro Olympus Homem de Ferro E6355 de Hasbro Classic\",\r
+
+    \    \"valor\": 80.0,\r
+
+    \    \"quantidadeDisponivel\": 10,\r
+
+    \    \"descricao\": \"Produto novo, bem acabado, alegria para colecionadores\",\r
+
+    \    \"caracteristicas\": [\r
+
+    \        {\r
+
+    \            \"nome\": \"Fabricante\",\r
+
+    \            \"descricao\": \"Iron Studios\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"nome\": \"material\",\r
+
+    \            \"descricao\": \"Ferro\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"nome\": \"escala\",\r
+
+    \            \"descricao\": \"1:10\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"imagens\": [\r
+
+    \        {\r
+
+    \            \"url\": \"https://i.imgur.com/dwDZICq.jpg\",\r
+
+    \            \"descricao\": \"Imagem do Homem de Ferro\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"categoria\": \"Colecionáveis\"\r
+
+    }"
+settings: {}
+order: 1000

@@ -1,0 +1,19 @@
+$kind: http-request
+url: localhost:3000/avaliacoes
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+        "idEspecialista": "16ce02c2-545a-4b17-b424-c967bb0bb45a",
+        "idPaciente": "1230bc6b-7f12-4404-9d34-a7a96a59e59f",
+        "descricao":"bem legal hein",
+        "nota": 10
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 2000

@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:3000/produtos
+method: GET
+body:
+  type: text
+  content: ""
+settings: {}
+order: 2000

@@ -1,0 +1,5 @@
+$kind: http-request
+url: "{{baseURL}}/livros/1"
+method: GET
+settings: {}
+order: 3000

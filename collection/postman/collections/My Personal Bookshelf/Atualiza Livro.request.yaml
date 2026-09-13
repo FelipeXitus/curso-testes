@@ -1,0 +1,12 @@
+$kind: http-request
+url: "{{baseURL}}/livros/1"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \  \"titulo\": \"O Senhor dos Anéis: A Sociedade do Anel\"\r
+
+    }"
+settings: {}
+order: 4000

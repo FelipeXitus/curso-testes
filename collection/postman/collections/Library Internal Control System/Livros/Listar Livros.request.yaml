@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{baseURL}}/livros?limite=5&pagina=1&sentidoOrdenacao=asc"
+method: GET
+queryParams:
+  - key: limite
+    value: "5"
+  - key: pagina
+    value: "1"
+  - key: ordenacao
+    value: titulo
+    disabled: true
+  - key: sentidoOrdenacao
+    value: asc
+settings: {}
+order: 2000

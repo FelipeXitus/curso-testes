@@ -1,0 +1,19 @@
+$kind: http-request
+url: http://localhost:3000/abrigos/2
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+    	"foto":"foto-legal.png",
+        "especieDePreferencia":"cachorro"
+    }
+auth:
+  type: noauth
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 5000

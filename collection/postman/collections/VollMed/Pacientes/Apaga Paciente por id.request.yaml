@@ -1,0 +1,12 @@
+$kind: http-request
+url: localhost:3000/paciente/f3185fd7-8bdf-461b-b58c-2157661f4fec/
+method: DELETE
+auth:
+  type: bearer
+  credentials:
+    token: "{{supabase_service_role_api_key_14ia}}"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 8000

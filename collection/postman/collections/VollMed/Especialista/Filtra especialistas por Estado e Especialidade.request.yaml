@@ -1,0 +1,19 @@
+$kind: http-request
+url: localhost:3000/especialista/busca
+method: GET
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: "{\r
+
+    \    \"estado\": \"Acre\",\r
+
+    \    \"especialidade\": \"pediatra\"    \r
+
+    }"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 4000

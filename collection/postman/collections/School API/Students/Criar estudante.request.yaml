@@ -1,0 +1,14 @@
+$kind: http-request
+url: http://localhost:3000/api/students
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "name": "Felipe Caldeira",
+      "email": "felipe.xitus@gmail.com"
+    }
+settings: {}
+order: 2000

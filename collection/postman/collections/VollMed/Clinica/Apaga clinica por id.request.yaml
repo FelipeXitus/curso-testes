@@ -1,0 +1,10 @@
+$kind: http-request
+url: localhost:3000/clinica/:id
+method: DELETE
+pathVariables:
+  id: ""
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 5000

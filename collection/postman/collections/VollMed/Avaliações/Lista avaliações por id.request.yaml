@@ -1,0 +1,10 @@
+$kind: http-request
+url: localhost:3000/avaliacoes/:id
+method: GET
+pathVariables:
+  id: ""
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 3000

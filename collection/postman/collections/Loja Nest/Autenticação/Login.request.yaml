@@ -1,0 +1,14 @@
+$kind: http-request
+url: http://localhost:3000/autenticacao/login
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\":\"felipe.xitus@hotmail.com\",\r
+
+    \    \"senha\":\"hilfar39F!5\"\r
+
+    }"
+settings: {}
+order: 1000

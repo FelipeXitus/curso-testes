@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:3000/pets
+method: GET
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 5000

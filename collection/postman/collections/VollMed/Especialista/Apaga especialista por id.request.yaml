@@ -1,0 +1,8 @@
+$kind: http-request
+url: localhost:3000/especialista/44992ec8-e681-4586-a45c-34ee8d65009f
+method: DELETE
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 7000

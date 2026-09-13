@@ -1,0 +1,28 @@
+$kind: http-request
+url: "{{baseURL}}/livros"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"titulo\": \"O Silmarillion\",\r
+
+    \  \"autor\": \"6978ec3851b2b54ea291d0b6\",\r
+
+    \  \"editora\": \"6978ed9b51b2b54ea291d0b8\",\r
+
+    \  \"ano_publicacao\": 1977,\r
+
+    \  \"genero\": \"Fantasia\",\r
+
+    \  \"disponivel\": true,\r
+
+    \  \"numero_paginas\": 468,\r
+
+    \  \"idioma\": \"Português\",\r
+
+    \  \"preco\": 59.9\r
+
+    }"
+settings: {}
+order: 1000

@@ -1,0 +1,20 @@
+$kind: http-request
+url: http://localhost:3000/pets
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+    	"nome":"Bolt",
+    	"especie":"tartaruga",
+        "porte":"pequeno",
+    	"dataDeNascimento":"2023-09-26",
+    	"adotado":false
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 1000

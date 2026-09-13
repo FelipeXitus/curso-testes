@@ -1,0 +1,18 @@
+$kind: http-request
+url: http://localhost:3000/pets/filtro?campo=especie&valor=tartaruga
+method: GET
+headers:
+  User-Agent: Insomnia/2023.5.5
+queryParams:
+  - key: campo
+    value: especie
+  - key: valor
+    value: tartaruga
+  - key: valor
+    value: grande
+    disabled: true
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 7000

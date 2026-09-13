@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{baseURL}}/livros/titulo/O Senhor"
+method: GET
+body:
+  type: json
+  content: ""
+settings: {}
+order: 6000

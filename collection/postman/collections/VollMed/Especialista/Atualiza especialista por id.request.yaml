@@ -1,0 +1,35 @@
+$kind: http-request
+url: localhost:3000/especialista/3bcfb167-b096-4052-b657-378ffcaa4676
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: "{\r
+
+    \    \"nome\": \"lucas\",\r
+
+    \    \"crm\": 5455576,\r
+
+    \    \"imagem\": \"gfht.jpg\",\r
+
+    \    \"especialidade\": \"pediatra\",\r
+
+    \     \"possuiPlanoSaude\": true,\r
+
+    \    \"planosSaude\": [1,2,0],\r
+
+    \    \"estaAtivo\":true,\r
+
+    \    \"email\": \"ar.naldo@gmail.com\",\r
+
+    \    \"telefone\": \"40028922\",\r
+
+    \    \"nota\": 10    \r
+
+    }"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 5000

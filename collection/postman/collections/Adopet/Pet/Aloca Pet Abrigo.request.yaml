@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:3000/pets/1/abrigo/2
+method: PUT
+auth:
+  type: noauth
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 9000

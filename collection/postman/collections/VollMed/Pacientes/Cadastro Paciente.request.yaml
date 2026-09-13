@@ -1,0 +1,31 @@
+$kind: http-request
+url: localhost:3000/paciente
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+        "cpf": "73479405088",
+        "nome": "Camila Fernanda Alves",
+        "email": "camila2@email.com",
+        "estaAtivo":true,
+        "endereco": {
+            "cep": 15545970,
+            "rua": "Rua Doze de Outubro",
+            "numero": 170,
+            "complemento": "Apartamento, bloco 2",
+            "estado": "SP"
+        },
+        "senha": "senhaforte123",
+        "telefone": "11999338521",
+        "possuiPlanoSaude": true,
+        "planosSaude": [1],
+        "historico":["bronquite,moderado"]
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 3000

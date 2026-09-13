@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{baseURL}}/livros"
+method: GET
+queryParams:
+  - key: ""
+    value: ""
+    disabled: true
+settings: {}
+order: 1000

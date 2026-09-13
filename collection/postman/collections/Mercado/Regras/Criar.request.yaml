@@ -1,0 +1,26 @@
+$kind: http-request
+url: http://localhost:3000/regras
+method: POST
+headers:
+  Authorization: ""
+body:
+  type: json
+  content: "{\r
+
+    \    \"nome\":\"Acesso_Copmpleto\",\r
+
+    \    \"descricao\": \"Essa regra permite acesso completo\",\r
+
+    \    \"idFuncionalidade\": \"637ddd6c-2f8c-498c-8fae-e82d6fc77a0a\",\r
+
+    \    \"ler\":true,\r
+
+    \    \"escrever\": true,\r
+
+    \    \"deletar\":true\r
+
+    }"
+auth:
+  type: noauth
+settings: {}
+order: 1000

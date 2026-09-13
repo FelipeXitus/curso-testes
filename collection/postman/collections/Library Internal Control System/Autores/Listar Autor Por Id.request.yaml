@@ -1,0 +1,5 @@
+$kind: http-request
+url: "{{baseURL}}/autores/6978ec3851b2b54ea291d0b6"
+method: GET
+settings: {}
+order: 2000

@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:3001/upload/prepared-video.mp4
+method: POST
+body:
+  type: file
+  content:
+    src: /C:/Users/User/Desktop/Estudos/Programação/Curso Alura/javascript/Codigos/streams/backend/prepared-video.mp4
+auth:
+  type: noauth
+settings: {}
+order: 2000

@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{baseURL}}/livros/busca?editora=Martins Fontes&titulo=Anéis&autor=Tolkien"
+method: GET
+queryParams:
+  editora: Martins Fontes
+  titulo: Anéis
+  autor: Tolkien
+settings: {}
+order: 6000

@@ -1,0 +1,16 @@
+$kind: http-request
+url: localhost:3000/paciente/75dfb644-843e-4df6-95a7-3f2a6b65c27e/images
+method: POST
+headers:
+  Content-Type: multipart/form-data
+body:
+  type: formdata
+  content:
+    - type: file
+      key: file
+      src: /home/camila/Imagens/paciente.jpg
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 4000

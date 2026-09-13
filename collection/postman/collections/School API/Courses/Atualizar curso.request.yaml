@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/api/courses/1
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "Node.JS Básico"
+    }
+settings: {}
+order: 4000

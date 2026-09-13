@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:3000/game/game001/card/explain/Lightning%20Bolt
+method: GET
+body:
+  type: text
+  content: ""
+settings: {}
+order: 5000

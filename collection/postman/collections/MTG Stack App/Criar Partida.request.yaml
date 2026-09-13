@@ -1,0 +1,19 @@
+$kind: http-request
+url: http://localhost:3000/game/create
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "gameId": "game001",
+      "players": [
+        { "id": "Xitus", "life": 40, "battlefield": [], "graveyard": [], "hand": [], "exile": [] },
+        { "id": "Gergelim", "life": 40, "battlefield": [], "graveyard": [], "hand": [], "exile": [] },
+        { "id": "Marcio", "life": 40, "battlefield": [], "graveyard": [], "hand": [], "exile": [] },
+        { "id": "Jan", "life": 40, "battlefield": [], "graveyard": [], "hand": [], "exile": [] }
+      ]
+    }
+settings: {}
+order: 1000

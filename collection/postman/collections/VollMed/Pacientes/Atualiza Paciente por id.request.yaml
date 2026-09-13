@@ -1,0 +1,43 @@
+$kind: http-request
+url: localhost:3000/paciente/d54db39f-f8a8-43bf-86c6-578ce435e49c
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: "{\r
+
+    \    \"cpf\": \"00360577032\",\r
+
+    \    \"nome\": \"Ricardo\",\r
+
+    \    \"email\": \"Ricardo@email.com\",\r
+
+    \    \"estaAtivo\":true,\r
+
+    \    \"endereco\": {\r
+
+    \        \"cep\": 76541321,\r
+
+    \        \"rua\": \"Rua 9\",\r
+
+    \        \"numero\": 65,\r
+
+    \        \"complemento\": \"casa\"\r
+
+    \    },\r
+
+    \    \"senha\": \"1234\",\r
+
+    \    \"telefone\": 99999999,\r
+
+    \    \"possuiPlanoSaude\": true,\r
+
+    \    \"planosSaude\": [3,2,5]\r
+
+    }"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 7000

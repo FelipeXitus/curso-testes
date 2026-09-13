@@ -1,0 +1,42 @@
+$kind: http-request
+url: http://localhost:3000/pedido
+method: POST
+headers:
+  Authorization: "Bearer "
+queryParams:
+  - key: usuarioId
+    value: 41ff2158-3ee9-4ce7-8183-1b8abd4b6bc5
+    disabled: true
+body:
+  type: json
+  content: "{\r
+
+    \    //\"valorTotal\":35,\r
+
+    \    //\"status\":\"em_processamento\",\r
+
+    \    \"itensPedido\": [\r
+
+    \        {\r
+
+    \            \"quantidade\": 1,\r
+
+    \            \"produtoId\": \"34f55294-5804-4187-9d4d-001468316c12\"\r
+
+    \            //\"precoVenda\":20\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"quantidade\": 1,\r
+
+    \            \"produtoId\": \"daa24a43-2e2e-4dbc-9ba8-e79f1b1ae2ec\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+settings: {}
+order: 1000

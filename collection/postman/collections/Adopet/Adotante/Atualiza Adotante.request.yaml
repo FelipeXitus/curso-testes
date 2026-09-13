@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:3000/adotantes/3
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+    	"foto":"foto-legal.png",
+        "especieDePreferencia":"cachorro"
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 4000

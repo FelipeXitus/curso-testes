@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/game/game001/stack/resolve
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "resolveAll": true
+    }
+settings: {}
+order: 4000

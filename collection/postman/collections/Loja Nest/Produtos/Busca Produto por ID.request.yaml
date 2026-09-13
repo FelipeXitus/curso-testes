@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:3000/produtos/daa24a43-2e2e-4dbc-9ba8-e79f1b1ae2ec
+method: GET
+auth:
+  type: noauth
+settings: {}
+order: 5000

@@ -1,0 +1,8 @@
+$kind: http-request
+url: localhost:3000/paciente
+method: GET
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 2000

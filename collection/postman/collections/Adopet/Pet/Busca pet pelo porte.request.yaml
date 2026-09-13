@@ -1,0 +1,12 @@
+$kind: http-request
+url: http://localhost:3000/pets/filtroPorte?porte=pequeno
+method: GET
+headers:
+  User-Agent: Insomnia/2023.5.5
+queryParams:
+  porte: pequeno
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 6000

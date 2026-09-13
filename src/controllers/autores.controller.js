@@ -19,7 +19,7 @@ export class AutoresController {
     try {
       const resultado = await Autor.pegarPeloId(id);
       if (!resultado) {
-        return res.status(404).json({ message: 'Autor não encontrado' });
+        return res.status(404).json({ message: 'Autor não encontrado', type: 'NOT_FOUND' });
       }
       res.status(200).send(resultado);
     } catch (err) {
@@ -30,6 +30,9 @@ export class AutoresController {
   async cadastrarAutor(req, res) {
     const { body } = req;
     const autor = new Autor(body);
+    if (!autor.nome || !autor.nacionalidade) {
+      return res.status(400).json({ message: 'Dados inválidos para cadastro de autor', type: 'INVALID_DATA' });
+    }
     try {
       const resposta = await autor.salvar(autor);
       return res

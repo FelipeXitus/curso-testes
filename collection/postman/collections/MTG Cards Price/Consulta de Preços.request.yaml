@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:3000/cards/prices?name=Counterspell
+method: GET
+queryParams:
+  name: Counterspell
+auth:
+  type: noauth
+settings: {}
+order: 1000

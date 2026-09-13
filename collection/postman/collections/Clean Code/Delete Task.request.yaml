@@ -1,0 +1,12 @@
+$kind: http-request
+url: http://localhost:3000/api/tasks
+method: DELETE
+body:
+  type: text
+  content: "{\r
+
+    \    \"id\": \"69aaa8b031f19f484167c87d\"\r
+
+    }"
+settings: {}
+order: 2000

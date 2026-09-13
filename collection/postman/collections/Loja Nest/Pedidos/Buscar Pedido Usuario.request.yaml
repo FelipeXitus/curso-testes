@@ -1,0 +1,20 @@
+$kind: http-request
+url: http://localhost:3000/pedido/usuario
+method: GET
+headers:
+  Authorization: "Bearer "
+body:
+  type: text
+  content: "{\r
+
+    \    \"nome\":\"Felipe\",\r
+
+    \    \"email\":\"felipe.xitus@gmail.com\",\r
+
+    \    \"senha\":\"123456\"\r
+
+    }"
+auth:
+  type: noauth
+settings: {}
+order: 4000

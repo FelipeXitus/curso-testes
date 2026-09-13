@@ -1,0 +1,28 @@
+$kind: http-request
+url: http://localhost:3000/adotantes
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+        "nome": "Felipe",
+        "senha": "hilfar39F!",
+        "cpf":"36460827800",
+        "celular": "11971914234",
+        "email": "felipe.xitus@gmail.com",
+        "endereco": {
+            "logradouro": "Rua Werner Goldberg",
+            "numero": 77,
+            "cidade": "Barueri",
+            "estado": "São Paulo",
+            "cep": "06414-025",
+            "complemento": "Rouxinol 251"
+        }
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 1000

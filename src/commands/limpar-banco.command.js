@@ -8,5 +8,6 @@ export async function limparBanco() {
   await conexao.raw('TRUNCATE TABLE autores RESTART IDENTITY CASCADE');
   await conexao.raw('TRUNCATE TABLE editoras RESTART IDENTITY CASCADE');
   await conexao.raw('TRUNCATE TABLE livros RESTART IDENTITY CASCADE');
+  await conexao.raw('TRUNCATE TABLE vendas RESTART IDENTITY CASCADE');
   console.debug('Banco de dados limpo com sucesso!');
 }

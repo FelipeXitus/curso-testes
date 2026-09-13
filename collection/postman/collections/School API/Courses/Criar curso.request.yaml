@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:3000/api/courses
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "NodeJS Básico",
+      "category": "Tecnologia",
+      "description": "Curso introdutório"
+    }
+settings: {}
+order: 2000

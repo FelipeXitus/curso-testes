@@ -1,0 +1,10 @@
+$kind: http-request
+url: localhost:3000/clinica/:id/especialista
+method: GET
+pathVariables:
+  id: ""
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 7000

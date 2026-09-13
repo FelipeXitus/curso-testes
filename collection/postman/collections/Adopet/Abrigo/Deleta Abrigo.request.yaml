@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:3000/abrigos/1
+method: DELETE
+auth:
+  type: noauth
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 2000

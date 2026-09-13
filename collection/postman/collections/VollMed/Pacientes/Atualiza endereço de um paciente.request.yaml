@@ -1,0 +1,25 @@
+$kind: http-request
+url: localhost:3000/paciente/:id
+method: PATCH
+headers:
+  Content-Type: application/json
+pathVariables:
+  id: ""
+body:
+  type: text
+  content: "{\r
+
+    \    \"cep\": 76541321,\r
+
+    \    \"rua\": \"Rua 9\",\r
+
+    \    \"numero\": 42,\r
+
+    \    \"complemento\": \"apt\"\r
+
+    }"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 9000

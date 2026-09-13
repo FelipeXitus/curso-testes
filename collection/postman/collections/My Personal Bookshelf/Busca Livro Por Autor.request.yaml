@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{baseURL}}/livros/autor/Tolkien"
+method: GET
+body:
+  type: json
+  content: ""
+settings: {}
+order: 7000

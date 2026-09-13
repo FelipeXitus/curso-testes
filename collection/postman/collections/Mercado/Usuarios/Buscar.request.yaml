@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/usuarios/id/f0acf60d-5373-4c07-9c2c-d2aac167cee2
+method: GET
+headers:
+  authorization: ""
+queryParams:
+  - key: ""
+    value: ""
+    disabled: true
+auth:
+  type: noauth
+settings: {}
+order: 1000

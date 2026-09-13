@@ -1,0 +1,25 @@
+$kind: http-request
+url: localhost:3000/consulta
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: "{\r
+
+    \    \"especialista\":\"16ce02c2-545a-4b17-b424-c967bb0bb45a\",\r
+
+    \    \"paciente\":\"1230bc6b-7f12-4404-9d34-a7a96a59e59f\",\r
+
+    \    \"data\":\"2023-07-15T15:32:00.305Z\",\r
+
+    \    \"desejaLembrete\":true,\r
+
+    \    \"lembretes\":[0,1]\r
+
+    }"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 1000

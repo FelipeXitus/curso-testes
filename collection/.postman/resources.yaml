@@ -1,0 +1,17 @@
+workspace:
+  id: 1cdabe5a-03c5-46e4-8406-39e19fccd93d
+cloudResources:
+  collections:
+    ../postman/collections/Stream: 2727276-e60a2704-5c3c-485e-9cef-2017ed751e0d
+    ../postman/collections/MTG Cards Price: 2727276-19ce3198-fe0d-45dc-9487-f5d9cc6c9902
+    ../postman/collections/VollMed: 2727276-11939283-7f62-4edf-80ed-d5f5f8346016
+    ../postman/collections/MTG Stack App: 2727276-cbb857cb-92c7-4e55-a37b-1b7cb868ad7b
+    ../postman/collections/School API: 2727276-112f0714-30e0-4651-b525-ad399c224973
+    ../postman/collections/Loja Nest: 2727276-f98015ba-0869-4793-ad67-1756c07b443d
+    ../postman/collections/Clean Code: 2727276-11a6c3d0-280e-41c6-93e6-1b910bc21db2
+    ../postman/collections/Adopet: 2727276-07059099-73c7-4975-9f7a-915a36e046cb
+    ../postman/collections/Mercado: 2727276-f4dbd65b-172d-4ec5-90b2-0c7062249b4b
+    ../postman/collections/Api Livros: 2727276-aeab50b6-308b-4f2b-98d3-1e17faff156b
+    ../postman/collections/My Personal Bookshelf: 2727276-39e36a9c-8ba7-4093-91a3-6d42f56ef26a
+    ../postman/collections/Library Internal Control System: 2727276-594d8659-686e-40bd-9d8e-e6e9f42d1886
+    ../postman/collections/OpenAI: 2727276-d1add7b0-24f7-4c80-a29f-de195aaeb9b3
