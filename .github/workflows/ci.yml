@@ -68,7 +68,7 @@ jobs:
     - name: Inicializa banco de dados de teste
       env:
         PGPASSWORD: postgres
-      run:
+      run: |
         psql -h localhost -U postgres -d livraria -f docker/init/01-create-tables.sql
         psql -h localhost -U postgres -f docker/init/02-create-test-db.sql
     - run: npm run test:int:all
