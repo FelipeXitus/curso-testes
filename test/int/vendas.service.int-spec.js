@@ -44,7 +44,7 @@ describe('VendasService', () => {
 
       // Assert
       assert.strictEqual(resposta.livro_id, livro.id);
-      assert.strictEqual(resposta.valor, 95);
+      assert.strictEqual(resposta.valor, "95.00");
       assert.strictEqual(resposta.tipo_pagamento, 'PIX');
       assertMock(emailGatewayMock.enviarEmail).wasCalledWith({
         destinatario: 'editora@teste.com',
