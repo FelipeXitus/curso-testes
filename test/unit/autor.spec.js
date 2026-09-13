@@ -60,11 +60,7 @@ describe('Autor', () => {
       const mockedDb = {
         select: () => {
           return {
-            from: () => {
-              return {
-                orderBy: () => Promise.resolve(autoresEsperados),
-              };
-            },
+            from: () => Promise.resolve(autoresEsperados),
           };
         },
       };
