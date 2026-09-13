@@ -43,7 +43,7 @@ jobs:
       postgres:
         image: postgres:18
         ports:
-          - 5433:5432
+          - 5432:5432
         env:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
@@ -55,7 +55,7 @@ jobs:
           --health-retries=5
     env:
       NODE_ENV: test
-      DATABASE_URL: postgres://postgres:postgres@localhost:5433/livraria
+      DATABASE_URL: postgres://postgres:postgres@localhost:5432/livraria
     steps:
     - uses: actions/checkout@v4
     - name: Use Node.js
