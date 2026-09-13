@@ -36,3 +36,40 @@ jobs:
     - run: npm ci
     - run: env > .env.test
     - run: npm run test:unit:all
+
+  test-integration-and-e2e:
+    runs-on: ubuntu-latest
+    env:
+      NODE_ENV: test
+      DATABASE_URL: postgres://postgres:postgres@localhost:5433/livraria
+    services:
+      postgres:
+        image: postgres:18
+        ports:
+          - 5433:5432
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: livraria
+        options: >-
+          --health-cmd="pg_isready -U postgres"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version-file: .node-version
+        cache: 'npm'
+    - run: npm ci
+    - run: env > .env.test
+    - name: Inicializa banco de dados de teste
+      env:
+        PGPASSWORD: postgres
+      run:
+        psql -h localhost -U postgres -d livraria -f docker/init/01-create-tables.sql
+        psql -h localhost -U postgres -f docker/init/02-create-test-db.sql
+    - run: npm run test:int:all
+    - run: npm run test:e2e:all
