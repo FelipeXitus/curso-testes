@@ -39,9 +39,6 @@ jobs:
 
   test-integration-and-e2e:
     runs-on: ubuntu-latest
-    env:
-      NODE_ENV: test
-      DATABASE_URL: postgres://postgres:postgres@localhost:5433/livraria
     services:
       postgres:
         image: postgres:18
@@ -56,6 +53,9 @@ jobs:
           --health-interval=10s
           --health-timeout=5s
           --health-retries=5
+    env:
+      NODE_ENV: test
+      DATABASE_URL: postgres://postgres:postgres@localhost:5433/livraria
     steps:
     - uses: actions/checkout@v4
     - name: Use Node.js
